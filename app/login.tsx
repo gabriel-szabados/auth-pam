@@ -1,8 +1,9 @@
 import { Text, View, SafeAreaView, TouchableOpacity, TextInput, StyleSheet } from 'react-native'
 import React, { useState } from 'react'
-import { auth } from '../FirebaseConfig'
+
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
 import { router } from 'expo-router'
+import { auth } from '@/FirebaseConfig'
 const Index = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

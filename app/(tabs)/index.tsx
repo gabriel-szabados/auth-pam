@@ -24,12 +24,14 @@ export default function TabOneScreen() {
   const handleSignOut = async () => {
     try {
       await signOut(auth);
+      router.replace('/login')
     } catch (error) {
       Alert.alert('Erro', 'Não foi possível fazer logout');
     }
   };
 
   const confirmSignOut = () => {
+    
     Alert.alert(
       'Confirmar Logout',
       'Tem certeza que deseja sair?',
