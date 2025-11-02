@@ -58,7 +58,7 @@ const Index = () => {
                 </TouchableOpacity>
                 
                 <TouchableOpacity style={styles.signupButton} onPress={signup}>
-                    <Text style={styles.signupButtonText}>Criar uma contas</Text>
+                    <Text style={styles.signupButtonText}>Criar uma conta</Text>
                 </TouchableOpacity>
             </View>
         </SafeAreaView>
