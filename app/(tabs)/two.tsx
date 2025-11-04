@@ -155,7 +155,7 @@ export default function TabTwoScreen() {
             )}
             keyExtractor={(item) => item.id}
             ListEmptyComponent={
-              <Text style={styles.emptyText}>Nenhum aluno cadastrado ainda. Adicione um novo aluno!</Text>
+              <Text style={styles.emptyText}>Nenhum aluno cadastrado ainda. Adicione um novo aluno</Text>
             }
           />
         )}
